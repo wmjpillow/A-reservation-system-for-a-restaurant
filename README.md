@@ -14,8 +14,22 @@ Booking can be done in fixed hours when the restaurant operates.
 
 Your Task:
 
-First, start with a design and identify the classes, data members and interfaces needed and how they will interact with each other.  Define all the entities need for this application and the assumptions you are going to make.
-Implement the classes and interfaces defined above.
+1.First, start with a design and identify the classes, data members and interfaces needed and how they will interact with each other.  Define all the entities need for this application and the assumptions you are going to make.
+
+classes:
+- Guest: id/ name/ phone_number
+- Table: id/ capacity
+- Reservation: 
+
+make_reservation
+show_tables
+show_reservations
+create_reservation
+
+table_utilization
+
+
+2.Implement the classes and interfaces defined above.
 
 
 PROBLEM #2 (Extending your solution to add additional features via Feature Flags)
