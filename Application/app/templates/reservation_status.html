@@ -1,0 +1,27 @@
+{%  extends "base.html" %}
+{% block content %}
+    <p>
+        <a href="{{ url_for('index') }}">Back to Home</a>
+    </p>
+    <form action="" method="post" name="reservation_status">
+        <p>
+            Please enter your name:<br />
+            {{ form.guest_name(size=80) }}<br />
+        </p>
+        <p>
+            Please enter your phone number:<br />
+            {{ form.guest_phone(size=80) }}<br />
+        </p>
+        <p>
+            Please enter the number of guests:<br />
+            {{ form.num_guests }}<br />
+        </p>
+        <p>
+            Please enter your date and time:<br />
+            {{ form.reservation_datetime }}<br />
+        </p>
+        <p>
+            <input type="submit" value="Create Reservation">
+        </p>
+    </form>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% block content %}
+    <p>
+        <a href="{{ url_for('admin') }}">Back to Admin</a>
+    </p>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Capacity</th>
+        </tr>
+        {% for table in tables %}
+        <tr>
+            <td>{{ table.id }}</td>
+            <td>{{ table.capacity }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <p>
+        <b>Add Table:</b>
+        <form action="" method="POST" name="add_table">
+            Capacity:
+            {{ form.table_capacity }}<br />
+            <input type="submit" value="Add Table">
+        </form>
+    </p>
+{% endblock %}
