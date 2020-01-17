@@ -1,11 +1,8 @@
-# A-reservation-system-for-a-restaurant
+# A Table Reservation System For A Restaurant
 
-PROBLEM #1  (C++/Python)
+PROBLEM 
 
 Your job is to create a reservation system for a restaurant.  The restaurant has N tables. You need to be able to provide following functionality for this system.   Let user reserve a table, or clear a reservation.
-
-
-Problem:
 
 In a restaurant, there are multiple tables with varying seating capacities.
 A table of a seating capacity of n can be booked for m people of a group such that m <= n.
