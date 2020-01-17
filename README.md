@@ -10,12 +10,14 @@ User Case:
 ![GitHub Logo](/img/user1.png)
 ![GitHub Logo](/img/user2.png)
 ![GitHub Logo](/img/user3.png)
+
 Interaction Diagram:
 ------
 ![GitHub Logo](/img/system.png)
+
 Task Problem:
 ------
-PROBLEM #1 Your job is to create a reservation system for a restaurant. The restaurant has N tables. You need to be able to provide following functionality for this system. Let user reserve a table or clear a reservation.
+PROBLEM 1 Your job is to create a reservation system for a restaurant. The restaurant has N tables. You need to be able to provide following functionality for this system. Let user reserve a table or clear a reservation.
 - In a restaurant, there are multiple tables with varying seating capacities.
 - A table of seating capacity of n can be booked for m people of a group such that m <= n.
 - A table can be re-booked for the same day only if there is a minimum T duration
@@ -24,8 +26,9 @@ PROBLEM #1 Your job is to create a reservation system for a restaurant. The rest
 
 Task: First, start with a design and identify the classes, data members and interfaces needed and how they will interact with each other. Define all the entities need for this application and the assumptions you are going to make. And Implement the classes and interfaces defined above.
 
-PROBLEM # 2 (Extending your solution to add additional features via Feature Flags)
+PROBLEM 2 (Extending your solution to add additional features via Feature Flags)
 Suggest other “optional” features you would like to add to your reservation system. Depending on the client vendor, you should be able to enable/disable these features (Think of these features which would enhance your solution for customers)
+
 Application Testing:
 ------
 ![GitHub Logo](/img/screen1.png)
