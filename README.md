@@ -29,6 +29,22 @@ Task: First, start with a design and identify the classes, data members and inte
 PROBLEM 2 (Extending your solution to add additional features via Feature Flags)
 Suggest other “optional” features you would like to add to your reservation system. Depending on the client vendor, you should be able to enable/disable these features (Think of these features which would enhance your solution for customers)
 
+Installation:
+------
+$ virtualenv flask
+
+$ cd flask
+
+$ source bin/activate
+
+$ pip install flask
+
+$ pip install Flask-SQLAlchemy
+
+$ pip install flask-wtf
+
+$ python run.py
+
 Application Testing:
 ------
 ![GitHub Logo](/img/screen1.png)
