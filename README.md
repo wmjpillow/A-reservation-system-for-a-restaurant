@@ -1,6 +1,6 @@
 # A Table Reservation System For A Restaurant
 
-This is a small practice project I got during job interview process. This repo includes a software system design document with all the details. In the coding and testing of the system, I use flask as framework to build all the design and implementations of the target system model.
+This is a small practice project I got during job interview process. This repo includes a software system design document with all the details. The first part of my work is to design the system model based on task problem, the seconnd part of my work is to implement and test the system I built. I use flask as framework to build all the design and implementations of the target system model.
 
 ![GitHub Logo](/img/user1.png)
 ![GitHub Logo](/img/user2.png)
